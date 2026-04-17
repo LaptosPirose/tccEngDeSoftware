@@ -1,0 +1,7 @@
+[
+  {"id": "Elevador_01", "ns": 2, "address": "Schneider.API3.Elevadores.SE1.CD0_TIR_SE1"},
+  {"id": "Elevador_02", "ns": 2, "address": "Schneider.API3.Elevadores.SE2.CD0_TIR_SE2"},
+  {"id": "Elevador_03", "ns": 2, "address": "Schneider.API3.Elevadores.SE3.CD0_TIR_SE3"},
+  {"id": "Elevador_04", "ns": 2, "address": "Schneider.API3.Elevadores.SE4.CD0_TIR_SE4"},
+  {"id": "Corrente_C4B", "ns": 2, "address": "Schneider.API1.Transportadores.Velocidades.C4B_CORRENTE"}  
+]
