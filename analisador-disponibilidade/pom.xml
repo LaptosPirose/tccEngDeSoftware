@@ -1,12 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.tcc</groupId>
-	<artifactId>analisador-disponibilidade</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 
-	<name>analisador-disponibilidade</name>
+	<groupId>com.tcc</groupId>
+	<artifactId>analisador-opc</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>analisador-opc</name>
 	<url>http://www.example.com</url>
 
 	<properties>
@@ -36,14 +40,15 @@
 			<artifactId>sdk-client</artifactId>
 			<version>0.6.12</version>
 		</dependency>
-
+		
 		<!-- JSON Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.15.2</version>
 		</dependency>
-		
+
+
 		<!-- Logs -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

@@ -1,4 +1,4 @@
-package com.tcc.analisador_opc;
+package com.java.analisadorDisponibilidade;
 
 import static org.eclipse.milo.opcua.stack.core.types.builtin.unsigned.Unsigned.uint;
 

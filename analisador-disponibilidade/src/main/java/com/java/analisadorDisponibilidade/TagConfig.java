@@ -1,4 +1,4 @@
-package com.tcc.analisador_opc;
+package com.java.analisadorDisponibilidade;
 
 public class TagConfig {
 	private String id;

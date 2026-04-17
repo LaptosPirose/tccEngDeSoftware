@@ -1,4 +1,4 @@
-package
+package com.java.analisadorDisponibilidade;
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
@@ -29,11 +29,13 @@ public class App {
 
 				while (!scanner.nextLine().equalsIgnoreCase("SAIR"))
 					;
+				scanner.close();
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			System.exit(0);
 		}
+		
 	}
 }

@@ -1,4 +1,4 @@
-package com.tcc.analisador_opc;
+package com.java.analisadorDisponibilidade;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Main {
 
 			while (!scanner.nextLine().equalsIgnoreCase("sair"))
 				;
-
+			scanner.close();
 		} catch (Exception e) {
 
 		} finally {
