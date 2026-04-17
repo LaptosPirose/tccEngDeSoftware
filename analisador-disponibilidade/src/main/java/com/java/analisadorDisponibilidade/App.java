@@ -27,6 +27,9 @@ public class App {
 				System.out.println("Monitoramento ativo. Digite 'SAIR' para encerrar.");
 				Scanner scanner = new Scanner(System.in);
 
+				/*
+				 * Aguarda usuário digitar sair para terminar a aplicação. Não "case sensitive".
+				 */
 				while (!scanner.nextLine().equalsIgnoreCase("SAIR"))
 					;
 				scanner.close();
