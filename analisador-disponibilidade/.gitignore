@@ -1,1 +1,13 @@
 /target/
+
+# Pasta de build do Maven (binários)
+target/
+
+# Arquivos específicos do Eclipse
+.settings/
+.project
+.classpath
+
+# Arquivos do Sistema
+.DS_Store
+Thumbs.db
