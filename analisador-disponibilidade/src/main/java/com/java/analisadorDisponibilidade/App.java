@@ -14,7 +14,7 @@ public class App {
 			service.connectWithFailover();
 
 			if (service.getClient() != null) {
-				// Carrega JSON do resources/config/tags.json
+				// Carrega JSON do resources/config/tags.json, tags a serem atualizados de acordo com o nodeId
 				ObjectMapper mapper = new ObjectMapper();
 				InputStream is = App.class.getClassLoader().getResourceAsStream("config/tags.json");
 
